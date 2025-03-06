@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    text-transform: capitalize;
+}
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    /* Your styles here */
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Your styles here */
+  }
+  
+  /* Large devices (laptops, desktops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles here */
+  }
+  
+  /* Extra large devices (big screens) */
+  @media (min-width: 1025px) {
+    /* Your styles here */
+  }
+  

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movies-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+.movies-container .card {
+
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+padding: 10px;
+
+}
+.movies-container .card img{
+    height: 300px;
+}
+.movies-container .card h2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    height: 30px;
+    margin-top:5px;
+}
+.movies-container-tittle h1 {
+    text-align: center;
+}
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    /* Your styles here */
+    .movies-container{
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+  
+    align-items: center;
+    }
+   
+    
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Your styles here */
+  }
+  
+  /* Large devices (laptops, desktops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles here */
+  }
+  
+  /* Extra large devices (big screens) */
+  @media (min-width: 1025px) {
+    /* Your styles here */
+  }
